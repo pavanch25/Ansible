@@ -15,7 +15,7 @@
                 state: started
         - name: making webpage content ready
           copy:
-                src: index.html
+                src: index.html #create a index.html file on current location
                 dest: /var/www/html/index.html
         - name: start firewalld service
           service:
