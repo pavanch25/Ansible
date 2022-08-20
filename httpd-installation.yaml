@@ -1,4 +1,6 @@
-- name: apache congigure
+#instllation of apache on a ansible-node
+
+- name: apache configure
   hosts: group1
   become: yes
   tasks:
